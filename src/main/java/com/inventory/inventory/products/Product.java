@@ -24,4 +24,7 @@ public class Product {
     private double price;
     private String description;
 
+    public Inventory getInventory() {
+        return inventory;
+    }
 }
